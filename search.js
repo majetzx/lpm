@@ -10,7 +10,6 @@ function lpmSearchInit(max){
 	lpms.css('width',lpmq.width()+'px');
 }
 function lpmKeypress(e){
-if(e.keyCode!=0)console.log('>lpmKeypress()',e.keyCode);
 	var lpms=$('#lpms');
 	if(e.keyCode==27)/*Escape*/
 		lpmHide();

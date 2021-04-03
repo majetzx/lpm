@@ -42,7 +42,7 @@ header('Content-Type: text/html; charset=UTF-8');
 		<meta charset="utf-8">
 		<title><?php echo $headTitle ?></title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 		<script src="search.js"></script>
 	</head>
 	<body>
@@ -125,6 +125,6 @@ else {
 			<strong>X,</strong> for all entries of type <tt>X</tt>.<br />
 		</div>
 		<hr class="hidden" />
-		<div id="copy">Version <?php echo $version; ?>. Copyright &copy; 2005-2013 Maje/TZX.</div>
+		<div id="copy">Version <?php echo $version; ?>. Copyright &copy; 2005-2017 Maje/TZX.</div>
 	</body>
 </html>
